@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Marcellus', sans-serif;
+    margin:0;
+    top:0;
+}
