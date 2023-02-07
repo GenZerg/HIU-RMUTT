@@ -1,0 +1,52 @@
+
+.Home-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg{
+    position: absolute;
+    left:0;
+
+    max-width: 100%;
+    min-height: 150rem;
+    object-fit: cover;
+    z-index: -2;
+}
+
+h1{
+    margin: 0;
+}
+
+.home-layout{
+    width: 70rem;
+    height: 30rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    position: absolute;
+    width: 30rem;
+    height: 30rem;
+    z-index: 2;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+
+.title img{
+    position: absolute;
+    max-width: 100%;
+}

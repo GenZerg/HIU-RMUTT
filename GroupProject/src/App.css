@@ -1,0 +1,14 @@
+#root {
+  width: 100%;
+  text-align: center;
+  --pimary-color:#3a4052;
+
+}
+
+body{
+  margin: 0;
+}
+
+.main{
+  overflow-y: hidden;
+}
