@@ -1,7 +1,17 @@
 import React from 'react'
 import './css/selector.css'
-export default function SelectlayoutFirst() {
+export default function SelectlayoutFirst(props) {
+
   return (
-    <div className='selectorlayout fcolor'>Selectlayout1</div>
+    <div className='selectorlayout fcolor'>
+      <div className='selector-title'>
+        <img src = {props.title}></img>
+      </div>
+      <div className='selector-detail'>
+        {props.detail}
+        </div> 
+    </div>
   )
 }
+
+

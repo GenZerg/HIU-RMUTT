@@ -1,7 +1,15 @@
 import React from 'react'
 
-export default function SelectLayoutThird() {
+export default function SelectLayoutThird(props) {
+
   return (
-    <div className='selectorlayout tcolor'>Selectlayout3</div>
+    <div className='selectorlayout tcolor'>
+      <div className='selector-title'>
+        <img src = {props.title}></img>
+      </div>
+      <div className='selector-detail'>
+        {props.detail}
+        </div> 
+    </div>
   )
 }

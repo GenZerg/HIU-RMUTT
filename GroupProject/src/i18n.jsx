@@ -5,6 +5,7 @@ const resources = {
   en: {
     translation: {
       "lang":"../public/images/nav-icon/En.png",
+      "langactive":"../public/images/nav-icon/En-red.png",
       "First": "Travel App",
       "Button1":"Thai",
       "Button2":"English",
@@ -20,6 +21,7 @@ const resources = {
   th: {
     translation: {
       "lang":"../public/images/nav-icon/Th.png",
+      "langactive":"../public/images/nav-icon/Th-red.png",
       "First": "แอปท่องเที่ยว",
       "Button1":"ภาษาไทย",
       "Button2":"ภาษาอังกฤษ",
@@ -36,6 +38,7 @@ const resources = {
   jp: {
     translation: {
       "lang":"../public/images/nav-icon/Jp.png",
+      "langactive":"../public/images/nav-icon/Jp-red.png",
       "First": "旅行",
       "Button1":"タイ語",
       "Button2":"英語",
