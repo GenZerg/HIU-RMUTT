@@ -144,3 +144,43 @@ h3:hover{
     visibility: visible;
 }
 
+.nav li a {
+    color:rgb(0, 0, 0)
+}
+
+.nav li a:hover{
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+    font-size: 25px;
+}
+
+.nav{
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3s ease;
+}
+
+.menu-text{
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+ul#nav {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.menupopup {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}

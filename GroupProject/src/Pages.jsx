@@ -59,18 +59,7 @@ export default function Pages() {
 
 
 ]
-  const items = datalist.map((item)=>
-    <Foodtype 
-    thillustration = {item.thillustration} 
-    thfood1 = {item.thfood1} 
-    thfood2 = {item.thfood2}
-    jpilustration = {item.jpilustration}
-    jpfood1 = {item.jpfood1}
-    jpfood2 = {item.jpfood2}
-    about = {item.about}
-    foodname = {item.foodname}
-    />
-  )
+
 
 
   const [Img , setImg ] = useState(false)
@@ -80,6 +69,7 @@ export default function Pages() {
     let Detail = document.getElementById('Detail')
     let Foodtype= document.getElementById('Foodtype')
     let Member= document.getElementById('Member')
+    let Showcase = document.getElementById('Showcase')
 
     let postHome  = Home.offsetTop  
     let postDetail  = Detail.offsetTop
@@ -112,13 +102,13 @@ export default function Pages() {
         <div id = 'Home'><Home/></div>
         <div id = 'Detail'><Detail/></div>
         <div id = 'Foodtype'>
-          {items}
+          <Foodtype/>
         </div>
+        <Showcase/>
         <Thaimov/>
         <Japanmov/>
         <div id = "Member">
           <Member/>
-          <Showcase/>
         </div>
 
     </div>

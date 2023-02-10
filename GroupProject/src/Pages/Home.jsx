@@ -65,6 +65,9 @@ export default function Home() {
   return (
     <section className='Home-section'>
       <img className = "bg" src='../../public/images/SRYP3864.png'></img> 
+      <div className = "img-top">
+        <img className = 'img-cheap' src='../../public/images/TNCR8008.png'></img>
+      </div>
       <div className='img-item'>
           <img className='items' src = '../../public/images/items/หอยทอด.png'></img>
           <img className='items' src = '../../public/images/items/taiyaki.png'></img>
@@ -76,7 +79,6 @@ export default function Home() {
           <img src='../../public/images/Mask Group 3.png'></img>
         </div>
 
-        <div className='text'>UMAUMA</div>
       </div>
       <div className='slidercontent'>
         <Swiper

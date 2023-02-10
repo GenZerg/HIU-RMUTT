@@ -52,7 +52,14 @@ export default function Navbar(props) {
             <div className='menupopup'>
                 <div className='menupop-wrap'>
                     <div className='menu-text'>
-                
+                        <ul className='nav' id = 'nav'>
+                            <li><a herf="#">{t('Menu1')}</a></li>
+                            <li><a herf="#">{t('Menu2')}</a></li>
+                            <li><a herf="#">{t('Menu3')}</a></li>
+                            <li><a herf="#">{t('Menu4')}</a></li>
+                            <li><a herf="#">{t('Menu5')}</a></li>
+                            <li><a herf="#">{t('Menu6')}</a></li>
+                        </ul>
                     </div>       
                 </div>    
             </div>

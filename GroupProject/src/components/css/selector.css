@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+     font-family: 'Itim', arial, helvetica, sans-serif;
+}
 .selectorlayout{
      width: 80rem;
      height: 50rem;
@@ -9,7 +14,16 @@
 
      align-items: center;
      justify-content: center;
+}
 
+.selector-Wrap{
+     position: relative;
+     border-radius: 25px;
+     border: 3px solid black;
+     box-shadow: 9px 6px 0px 7px rgba(0,0,0,1);
+     padding: 0px 40px 40px 40px;
+     background-color: white;
+     
 }
 
 .selector-title , .selector-detail{
@@ -17,11 +31,23 @@
 }
 
 .selector-title img{
-     width: 80%;
+     width: 60%;
+     height: 100%;
+     transform: translateY(-15px);
+}
+.selector-title{
+     width: 100%;
+     height: 40%;
+     margin-bottom: 20px;
+     display: flex;
+     align-items: start;
+     justify-content: center;
+     overflow: hidden;
 }
 
 .selector-detail{
-     font-size: 20px;
+     height: 70%;
+     font-size: 30px;
      display: flex;
      text-align: start;
      color:black;

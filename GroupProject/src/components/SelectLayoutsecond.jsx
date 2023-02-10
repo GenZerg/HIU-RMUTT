@@ -10,12 +10,14 @@ export default function SelectLayoutsecond(props) {
 
 
   return (
-    <div className='selectorlayout scolor'>
+    <div className='selectorlayout fcolor'>
+      <div className='selector-Wrap'>
       <div className='selector-title'>
         <img src = {props.title}></img>
       </div>
       <div className='selector-detail'>
         {props.detail}
+        </div>
         </div> 
     </div>
   )

@@ -74,9 +74,7 @@
     justify-content: center;
     align-items: center;
 }
-.fcolor{
-    background-color: blue;
-}
+
 .scolor{
     background-color: green;   
 }
@@ -92,7 +90,7 @@
     width: 0.8rem;
     height: 0.8rem;
     margin: 10px;
-    background-color: black;
+    background-color: #F37264;
     border-radius: 50%;
     display: none;
     

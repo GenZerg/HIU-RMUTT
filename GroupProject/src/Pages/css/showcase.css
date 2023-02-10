@@ -12,9 +12,11 @@
 }
 
 .Show-left{
-    background-color: aquamarine;
+    background-color: var(--wheatcolor);
+    overflow: hidden;
 }
 
 .Show-right{
     background-color: var(--wheatcolor);
+    overflow: hidden;
 }

@@ -16,6 +16,12 @@ const resources = {
       "detailNav3":"Japan Street food",
 
       "Member":"Member",
+      "Menu1":"Home",
+      "Menu2":"Why street food",
+      "Menu3":"Thai food",
+      "Menu4":"Japan food",
+      "Menu5":"Movie",
+      "Menu6":"Member",
     }
   },
   th: {
@@ -33,7 +39,13 @@ const resources = {
       "detailNav3":"สตรีทฟู๊ดของญี่ปุ่น",
 
       "Member":"สมาชิก",
-    }
+      "Menu1":"หน้าหลัก",
+      "Menu2":"ทำไมถึงต้องเป็นสตรีทฟู้ด",
+      "Menu3":"อาหารไทย",
+      "Menu4":"อาหารญี่ปุ่น",
+      "Menu5":"คลิปบรรยากาศ",
+      "Menu6":"สมาชิก",
+    } 
   },
   jp: {
     translation: {

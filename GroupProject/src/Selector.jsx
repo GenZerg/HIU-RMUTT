@@ -12,7 +12,7 @@ const datalist = [{
 },
 {
      title:"../public/images/TNCR8008.png",
-     detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.",
+     detail:"i ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.",
 }
 ]
 
