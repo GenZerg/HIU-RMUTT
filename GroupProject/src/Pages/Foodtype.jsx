@@ -4,25 +4,31 @@ import { useState } from 'react'
 import "./css/Foodtype.css"
 import FoodLayout from '../components/FoodLayout'
 
-export default function Foodtype(props) {
-  const data = ({
-    th: "Thai food",
-    jp : "Japan food",
-    btext: "Clickme",
-  })
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+export default function Foodtype (props){
 
   return (
     <section className='Foodtype-section'>
+      <img className = "foodtypeimg" src='../../public/images/SRYP3864.png'></img>
         <div className='Foodtype-wrap'>
           <div className='thai-food'>
-            <img className = "foodtypeimg" src='../../public/images/SRYP3864.png'></img>
-            <FoodLayout Title = {data.th} about = {props.about} images = {props.thillustration}  name = {props.foodname} btntext = {data.btext} simg1 ={props.thfood1}  simg2  = {props.thfood2}/>
+          <img className = "imgthfood" src='../../public/images/font th jp foods-01.png'></img>
+            </div>
+            <div className='th-wrap'>
+            <div class="grid-container">
+  <div class="grid-item"><img className = "foodth1" src='../../public/images/items/Stir Fried Basil.png'></img></div>
+  <div class="grid-item"><img className = "foodth2" src='../../public/images/items/kai tod.png'></img></div>
+  <div class="grid-item"><img className = "foodth3" src='../../public/images/items/hoi tod.png'></img></div>  
+  <div class="grid-item"><img className = "foodth4" src='../../public/images/items/hoi tod.png'></img></div>
+  <div class="grid-item"><img className = "foodth5" src='../../public/images/items/roti.png'></img></div>
+  <div class="grid-item"><img className = "foodth6" src='../../public/images/glass.png'></img></div>  
+</div>
+          
           </div>
-          <div className='jpfood'>
-            <FoodLayout Title = {data.jp} about = {props.about} images = {props.jpilustration}  name = {props.foodname} btntext = {data.btext} simg1 = {props.jpfood1} simg2 = {props.jpfood2}></FoodLayout>
           </div>
-        
-        </div>
     </section>
   )
 }

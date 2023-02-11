@@ -101,10 +101,8 @@ export default function Pages() {
         <Navbar status = {Img} />
         <div id = 'Home'><Home/></div>
         <div id = 'Detail'><Detail/></div>
-        <div id = 'Foodtype'>
-          <Foodtype/>
-        </div>
         <Showcase/>
+        <Foodtype/>
         <Thaimov/>
         <Japanmov/>
         <div id = "Member">
