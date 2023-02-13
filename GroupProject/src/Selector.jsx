@@ -1,18 +1,20 @@
 import SelectlayoutFirst from "./components/SelectlayoutFirst";
 import SelectLayoutsecond from "./components/SelectLayoutsecond";
 import SelectLayoutThird from "./components/SelectLayoutThird";
+import i18n from './i18n'
+import { useTranslation } from 'react-i18next'
 
 const datalist = [{
-     title:"../public/images/TNCR8008.png",
-     detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.",
+     title:"../public/images/gifs/Cheapandtasty.gif",
+     detail:"Detail1",
 },
 {
-     title:"../public/images/TNCR8008.png",
-     detail:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.",
+     title:"../public/images/gifs/THfood.gif",
+     detail:"Detail2",
 },
 {
-     title:"../public/images/TNCR8008.png",
-     detail:"i ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, corrupti ratione veniam eos accusantium eligendi, odio quibusdam cupiditate laboriosam harum molestiae optio? Deserunt obcaecati nam odit rerum vero officia sed.",
+     title:"../public/images/gifs/JPfood.gif",
+     detail:"Detail3",
 }
 ]
 

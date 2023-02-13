@@ -7,8 +7,6 @@
      align-items: center;
 }
 .sliderimg{
-     width: 20rem;
-     height: 80%;
 
      border :3px solid black;
      border-radius: 5px;
@@ -23,8 +21,6 @@
 }
 
 .slidercontent{
-     width:50%;
-     height: 30%;
      display: flex;
- 
+     align-items: center;
 }

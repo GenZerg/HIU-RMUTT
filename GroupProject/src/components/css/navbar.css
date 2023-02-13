@@ -53,7 +53,7 @@
 #lang.active .navpopup{
     transform-origin: center;
     transition: 0.3s ease; 
-    width: 10em;
+    width:8em;
     height: 9em;
     visibility: visible;
 }

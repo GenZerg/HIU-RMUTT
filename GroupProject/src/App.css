@@ -1,3 +1,7 @@
+@font-face { font-family: NotosanJP; 
+  src: url("./systems/font/Notosans.otf ");}
+
+
 #root {
   width: 100%;
   text-align: center;

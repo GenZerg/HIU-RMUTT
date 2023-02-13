@@ -3,10 +3,13 @@ import "./css/navbar.css"
 import i18n from '../i18n'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
-
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Navbar(props) {
-    console.log(props.status)
+    const menulist = ['Home','Detail','Thfood','Jpfood','Movie','Member']
+    const menulang= ['Menu1','Menu2','Menu3','Menu4','Menu5','Menu6']
+ 
     const [status , Setstatus] = useState(false)
     const {t , i18n} = useTranslation();
     const [Menustatus , SetMenustatus] = useState(false)
@@ -24,13 +27,19 @@ export default function Navbar(props) {
         SetMenustatus(Menustatus => !Menustatus)
     }
 
+    const menuitems = menulist.map((items,i)=>
+    <HashLink smooth to={"/#" + items} key = {i}>
+        <div className='text-2xl m-1   flex'>{t(menulang[i])}</div>
+    </HashLink>
+)
+
 
     let toggleCheck = status ? 'active' : '';
     let toggleMenuCheck = Menustatus ? 'active' : '';
     return (
     <div className='navbar'>
         <div id = 'lang'className = {`${toggleCheck}`}>  
-            <div className='lang-wrap' onClick={handlelang}>
+            <div className='lang-wrap z-10' onClick={handlelang}>
                 <img src = {props.status ? t('langactive') : t('lang')}></img>
             </div>
             <div className='navpopup'>
@@ -44,22 +53,17 @@ export default function Navbar(props) {
             </div>
         </div>
         
-        <div id='hammenu' className = {`${toggleMenuCheck}`}>
+        <div id='hammenu' className = {`${toggleMenuCheck} `}>
             <div className='menu-wrap' onClick={handleMenu}>
-                <img src='../../public/images/Group 9.png'></img>
+            <img src = {props.status ? t('langmactive') : t('langm')}></img>
             </div>
 
             <div className='menupopup'>
                 <div className='menupop-wrap'>
                     <div className='menu-text'>
-                        <ul className='nav' id = 'nav'>
-                            <li><a herf="#">{t('Menu1')}</a></li>
-                            <li><a herf="#">{t('Menu2')}</a></li>
-                            <li><a herf="#">{t('Menu3')}</a></li>
-                            <li><a herf="#">{t('Menu4')}</a></li>
-                            <li><a herf="#">{t('Menu5')}</a></li>
-                            <li><a herf="#">{t('Menu6')}</a></li>
-                        </ul>
+                        <div className='flex w-full flex-col font-md items-center font-sans hover:font-bold' id = 'nav'>
+                            {menuitems}
+                        </div>
                     </div>       
                 </div>    
             </div>

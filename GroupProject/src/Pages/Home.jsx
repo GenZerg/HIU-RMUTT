@@ -33,10 +33,28 @@ export default function Home() {
   },
   {
     src : '../../public/images/items/uni.png'
+  },
+  {
+    src : '../../public/images/items/kaitod.png'
+  },
+  {
+    src : '../../public/images/items/hoitod.png'
+  },
+  {
+    src : '../../public/images/items/roti.png'
+  },
+  {
+    src : '../../public/images/items/glass.png'
+  },
+  {
+    src : '../../public/images/items/krapow.png'
+  },
+  {
+    src : '../../public/images/items/Padthai.png'
   }
 ]
-  const data = storage.map((item)=>
-    <SwiperSlide className='swiper-items'>
+  const data = storage.map((item,i)=>
+    <SwiperSlide className='swiper-items' key={i}>
       <Slider img = {item.src}/>
     </SwiperSlide>
   )
@@ -63,37 +81,31 @@ export default function Home() {
     window.location.href = "/" + data
   }
   return (
-    <section className='Home-section'>
-      <img className = "bg" src='../../public/images/SRYP3864.png'></img> 
+    <section className='Home-section' id = "Home">
+      <video className = 'bg' src = "../../public/videos/top.mov" autoPlay muted loop></video>
       <div className = "img-top">
         <img className = 'img-cheap' src='../../public/images/TNCR8008.png'></img>
       </div>
-      <div className='img-item'>
-          <img className='items' src = '../../public/images/items/หอยทอด.png'></img>
-          <img className='items' src = '../../public/images/items/taiyaki.png'></img>
-        </div>
 
       <div className='home-layout'>    
 
-        <div className='title'>
+        <div className='title w-20rem h-20rem 1sm:w-30rem 1sm:h-30rem'>
           <img src='../../public/images/Mask Group 3.png'></img>
         </div>
 
       </div>
-      <div className='slidercontent'>
+      <div className='slidercontent w-25rem 2sm:w-2/4 h-10rem md:h-30% 2xs:w-70rem'>
         <Swiper
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y ,Autoplay]}
+          modules={[ Pagination, Scrollbar, A11y ,Autoplay]}
           spaceBetween={50}
           slidesPerView={3}
-          navigation
+          
           loop = {true}
           autoplay={{ delay: 2000, disableOnInteraction:false}}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
-          className = "swiper-task"
+          className = "swiper-task w-full h-3/5 2sm:h-4/5 2sm:w-45rem 2xs:w-full 2xs:h-full"
         >
             {data}
           ...

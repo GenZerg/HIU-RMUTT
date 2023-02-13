@@ -3,11 +3,10 @@ import './css/mov.css'
 
 export default function Thaimov() {
   return (
-    <section className='Thaimov-section'>
-      <div className='video-container'>
-        <video src = "../../public/videos/Thaimov.mp4" autoPlay muted loop></video>
-      </div>
-
-    </section>
+    <div className="mov container-fluid">
+      <video autoPlay loop muted>
+        <source src="videos/Thaimov.mp4" type="video/mp4" />
+      </video>
+    </div>
   )
 }

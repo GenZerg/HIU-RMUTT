@@ -15,9 +15,9 @@ export default function Memberbox(props) {
                     <p>{props.contact}</p>
                     <p>{props.comment}</p>
                </div>
-           
+
           </div>
-      
+
      </div>
   )
 }
